@@ -1,6 +1,6 @@
 # Load RSpec and Capybara
 require 'rspec'
-require 'capybara/rspec'
+require 'capybara/rspec' #needed for integration tests in Rails or Sinatra
 require 'capybara/dsl'
 
 # Configure RSpec
